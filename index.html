@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sales Score</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <nav id="navbar">
+      <a href="#">
+        <img
+          src="assets/artwork7.svg"
+          alt="artwork7"
+          class="logo"
+        />
+      </a>
+      <button class="support-site-button">
+        <div class="support-site-title">サポートサイト</div>
+      </button>
+      <ul class="nav-list">
+        <li class="nav-item"><a href="#">検査結果画面の解説</a></li>
+        <li class="nav-item"><a href="#">主な機能</a></li>
+        <li class="nav-item"><a href="#">利用シーン別ガイド</a></li>
+        <li class="nav-item"><a href="#">初めてご利用の方へ</a></li>
+        <li class="nav-item"><a href="#">FAQ</a></li>
+      </ul>
+    </nav>
+
+    <header>
+      <div class="top">
+        <div class="bread">
+          <img src="assets/fa-house.svg" alt="Top" />
+          <span>トップ</span>
+        </div>
+        <div class="login-and-contact">
+          <div class="login">
+            <span>ログイン</span>
+            <img src="assets/fa-arrow-up-right.svg" alt="Login" />
+          </div>
+          <div class="contact">
+            <span>お問い合わせ</span>
+            <img src="assets/fa-envelope.svg" alt="Contact" />
+          </div>
+        </div>
+      </div>
+      <div class="search-section">
+        <label for="search-bar" class="inquiry-question"
+          >どんな事でお困りですか？</label
+          >
+          <img
+            src="assets/fa-magnifying-glass.svg"
+            alt="Magnifying Glass Symbol"
+            class="magnifier"
+          />
+        <input
+          type="search"
+          name="search-bar"
+          id="search-bar"
+          placeholder="キーワードを入力"
+        />
+        <button type="submit" id="search-button">検索</button>
+      </div>
+    </header>
+
+    <main>
+      <section class="title-guide first">
+        <a href="#">
+          <img
+            src="assets/artwork38.svg"
+            alt="Title Guide Illustration"
+            class="title-guide-illustration"
+          />
+        </a>
+        <div class="title-guide-content">
+          <div class="title-guide-usage">利用シーン別ガイド</div>
+          <div class="title-guide-description">
+            SALES SCOREを様々なシーンでご活用いただく方法をご紹介します。
+          </div>
+        </div>
+      </section>
+
+      <section class="content-guide">
+        <button class="content-button">
+          <img src="assets/chart.svg" alt="Chart" class="content-symbol" />
+          <div class="content-description">
+            受検者の営業活動の特徴を 見える化したい
+          </div>
+        </button>
+
+        <button class="content-button">
+          <img src="assets/user.svg" alt="Chart" class="content-symbol" />
+          <div class="content-description">
+            ポテンシャルの高い人材を 採用したい
+          </div>
+        </button>
+
+        <button class="content-button">
+          <img src="assets/chart-up.svg" alt="Chart" class="content-symbol" />
+          <div class="content-description">離職率を改善したい</div>
+        </button>
+
+        <button class="content-button">
+          <img
+            src="assets/cyan-magnifier.svg"
+            alt="Chart"
+            class="content-symbol"
+          />
+          <div class="content-description">成績優秀層を分析したい</div>
+        </button>
+
+        <button class="content-button">
+          <img src="assets/door.svg" alt="Chart" class="content-symbol" />
+          <div class="content-description">自社の特徴を理解したい</div>
+        </button>
+
+        <button class="content-button">
+          <img src="assets/message.svg" alt="Chart" class="content-symbol" />
+          <div class="content-description">
+            社員のコミュニケーションを 改善したい
+          </div>
+        </button>
+      </section>
+
+      <section class="title-guide second">
+        <a href="#">
+          <img
+            src="assets/artwork8.svg"
+            alt="Title Guide Illustration"
+            class="title-guide-illustration"
+          />
+        </a>
+        <div class="title-guide-content">
+          <div class="title-guide-usage">検査結果画面の解説</div>
+          <div class="title-guide-description">
+            SALES SCOREのアウトプット項目について紹介します。
+          </div>
+        </div>
+      </section>
+
+      <section class="explanation">
+        <div class="explanation-row">
+          <div class="explanation-subtitle">適性検査のアウトプット</div>
+          <div class="explanation-button-container first-sect">
+            <button class="explanation-button">
+              <img
+                src="assets/data-summary.svg"
+                alt="Data Summary Icon"
+                class="explanation-icon first"
+              />
+              <div class="explanation-description">データサマリー</div>
+            </button>
+            <button class="explanation-button">
+              <img
+                src="assets/data-details.svg"
+                alt="Data Details Icon"
+                class="explanation-icon second"
+              />
+              <div class="explanation-description second">データ詳細</div>
+            </button>
+            <button class="explanation-button third">
+              <img
+                src="assets/data-comparison.svg"
+                alt="Data Comparison Icon"
+                class="explanation-icon"
+              />
+              <div class="explanation-description third">データ比較</div>
+            </button>
+          </div>
+        </div>
+
+        <div class="explanation-row second">
+          <div class="explanation-subtitle">企業傾向分析</div>
+          <div class="explanation-button-container">
+            <button class="explanation-button">
+              <img
+                src="assets/overall-comparison.svg"
+                alt="Overall Comparison Icon"
+                class="explanation-icon fourth"
+              />
+              <div class="explanation-description fourth">全体比較</div>
+            </button>
+            <button class="explanation-button">
+              <img
+                src="assets/sales-type-tendency.svg"
+                alt="Sales Type Tendency Icon"
+                class="explanation-icon fifth"
+              />
+              <div class="explanation-description fifth">営業タイプ傾向</div>
+            </button>
+            <button class="explanation-button">
+              <img
+                src="assets/high-low-analysis.svg"
+                alt="High-Low Analysis Icon"
+                class="explanation-icon sixth"
+              />
+              <div class="explanation-description sixth">High-Low分析</div>
+            </button>
+            <button class="explanation-button">
+              <img
+                src="assets/composition-comparison.svg"
+                alt="Composition Comparison Icon"
+                class="explanation-icon seventh"
+              />
+              <div class="explanation-description seventh">構成比比較</div>
+            </button>
+          </div>
+        </div>
+
+        <div class="explanation-row third">
+          <div class="explanation-subtitle">検査結果詳細</div>
+          <div class="explanation-button-container">
+            <button class="explanation-button">
+              <img
+                src="assets/predicted-value.svg"
+                alt="Predicted Value Icon"
+                class="explanation-icon eighth"
+              />
+              <div class="explanation-description eighth">表示される予測値</div>
+            </button>
+            <button class="explanation-button">
+              <img
+                src="assets/sales-type.svg"
+                alt="Sales Types Icon"
+                class="explanation-icon"
+              />
+              <div class="explanation-description nineth">
+                表示される営業タイプ
+              </div>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="title-guide third">
+        <a href="#">
+          <img
+            src="assets/artwork39.svg"
+            alt="Title Guide Illustration"
+            class="title-guide-illustration"
+          />
+        </a>
+        <div class="title-guide-content">
+          <div class="title-guide-usage">主な機能</div>
+          <div class="title-guide-description">
+            SALES
+            SCOREの利用方法及び、ツールに表示される項目について紹介します。
+          </div>
+        </div>
+      </section>
+
+      <section class="main-functions">
+        <div class="main-functions-container">
+          <div class="function">
+            <div class="function-title">管理者</div>
+            <ul class="function-description">
+              <li>管理者の登録・編集</li>
+              <li>表示される管理者情報</li>
+            </ul>
+          </div>
+          <div class="function">
+            <div class="function-title">従業員</div>
+            <ul class="function-description">
+              <li>従業員の登録・編集</li>
+              <li>表示される従業員情報</li>
+            </ul>
+          </div>
+          <div class="function">
+            <div class="function-title third">応募者</div>
+            <ul class="function-description">
+              <li>応募者の登録・編集</li>
+              <li>表示される応募者情報</li>
+            </ul>
+          </div>
+          <div class="function fourth">
+            <div class="function-title">実績データの登録</div>
+            <ul class="function-description">
+              <li>実績の登録・編集</li>
+              <li>分析対象範囲の指定</li>
+              <li>成績区分の指定</li>
+            </ul>
+          </div>
+          <div class="function fifth">
+            <div class="function-title">適性検査</div>
+            <ul class="function-description">
+              <li>適性検査推奨環境</li>
+              <li>受検メールの送信</li>
+              <li>ＵＲＬの発行</li>
+              <li>受検者のステータス</li>
+              <li>検査実施項目</li>
+            </ul>
+          </div>
+          <div class="function sixth">
+            <div class="function-title">ダッシュボード機能</div>
+            <ul class="function-description">
+              <li>実績データ分析機能</li>
+              <li>運用サポート機能 </li>
+            </ul>
+          </div>
+          <div class="function">
+            <div class="function-title">契約について</div>
+            <ul class="function-description">
+              <li>契約情報の確認</li>
+              <li>解約の方法</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="copyright">
+        Copyright © 2022 SALES SCORE All Right Reserved. .
+      </div>
+    </footer>
+  </body>
+</html>
